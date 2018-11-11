@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GIPHY API Movie</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Movies Name
+                    </a>
+                </li>
+
+                <li id="gifbutton">
+
+                </li>
+
+
+                <!-- <li>
+                    <a href="#">Shortcuts</a>
+                </li> -->
+                <!-- <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                
+                <div class="container text-center">
+                    <h1>GIPHY API Movies</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 text-center">
+                        <!-- <h4>This is Movie GIPHY API</h4>
+                        <h4>click the Movie Name</h4> -->
+                        <!-- <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a> -->
+                    </div>
+                    <!-- <a id="menu-toggle" href="#"><span class="glyphicon glyphicon-align-justify"></span></a></li> -->
+                    <div class="col-md-4">
+                        <form id="movie-form">
+                            <label for="movie-input">Add a Movie</label>
+                            <input type="text" id="movie-input"><br /><br />
+
+                            <!-- Button triggers new movie to be added -->
+                            <input id="add-movie" type="submit" value="Add a Movie">
+                        </form>
+                    </div>
+                </div>
+                <div class="container">
+                    <div id="gifimage">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="javascript/game.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#wrapper").toggleClass("toggled");
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+
+        });
+    </script>
+
+</body>
+
+</html>
